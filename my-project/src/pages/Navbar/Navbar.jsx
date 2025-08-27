@@ -5,7 +5,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex justify-center rounded-full bg-slate-700/55 items-center fixed top-2 left-1/3 w-auto  font-semibold z-50 px-4 py-2">
+    <nav className="flex justify-center md:rounded-full md:bg-slate-700/55 items-center fixed top-2 left-1/3 w-auto  font-serif z-50 px-4 py-2">
       {/* Logo */}
       {/* <div className="flex items-center">
         <img src="/doxalogo1.png" alt="logo" className="w-16 md:w-20 lg:w-24" />
